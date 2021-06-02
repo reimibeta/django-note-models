@@ -1,3 +1,3 @@
+datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git@545cd2e124497406647b538a3a371549aaca4b8c
 Django==3.2.3
 django-admin-list-filter-dropdown==1.0.3
-datetime-utils @ git+https://github.com/reimibeta/django-datetime-utils.git
