@@ -10,8 +10,8 @@ import os
 import setuptools
 
 setuptools.setup(
-    name='notes',
-    version='1.0.1',
+    name='note_models',
+    version='1.0.2',
     packages=setuptools.find_packages(),
     # scripts=['makemigrations.py','migrate.py']
 )

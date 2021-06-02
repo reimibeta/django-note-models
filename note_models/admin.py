@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django_admin_listfilter_dropdown.filters import DropdownFilter
 
-from notes.models import Note
+from note_models.models import Note
 
 
 class NoteAdmin(admin.ModelAdmin):

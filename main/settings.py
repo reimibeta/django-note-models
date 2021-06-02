@@ -38,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # notes
-    'notes.apps.NoteConfig',
+    'note_models.apps.NoteConfig',
     # Filter
     'django_admin_listfilter_dropdown',
 ]
