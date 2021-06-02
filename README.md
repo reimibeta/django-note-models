@@ -1,2 +1,2 @@
-# django-notes
- django notes
+# django-note-models
+ django note models
