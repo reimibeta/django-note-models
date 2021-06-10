@@ -11,7 +11,6 @@ import setuptools
 
 setuptools.setup(
     name='note_models',
-    version='1.0.3',
-    packages=setuptools.find_packages(),
-    # scripts=['makemigrations.py','migrate.py']
+    version='1.0.4',
+    packages=setuptools.find_packages()
 )
