@@ -1,6 +1,6 @@
 from django.shortcuts import render
+from django_rest_framework.pagination import StandardResultsSetPagination
 from rest_framework import viewsets
-from rest_framework_utils.pagination import StandardResultsSetPagination
 
 from note_models.models import Note
 from note_models.serializers import NoteSerializer

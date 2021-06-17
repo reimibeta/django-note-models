@@ -1,8 +1,8 @@
-from datetime_utils.date_time import DateTime
 from django.conf import settings
 from django.db import models
 from django.db.models.signals import post_save, pre_save, pre_delete
 from django.dispatch import receiver
+from django_datetime.date_time import datetime
 
 
 class Note(models.Model):
@@ -13,7 +13,7 @@ class Note(models.Model):
     text = models.TextField(blank=True, null=True)
     is_read = models.BooleanField(default=False)
     is_edit = models.BooleanField(default=False)
-    created_date = models.DateField(default=DateTime.datenow)
+    created_date = models.DateField(default=datetime.dnow())
     updated_date = models.DateField(blank=True, null=True)
 
     def __str__(self):
