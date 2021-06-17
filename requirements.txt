@@ -1,8 +1,12 @@
+asgiref==3.3.4
 Django==3.2.3
 django-admin-list-filter-dropdown==1.0.3
+django-datetime @ git+https://github.com/reimibeta/django-datetime.git@d296be9078c47baa763d0732b5cd56f1962bc50f
+django-html-render @ git+https://github.com/reimibeta/django-html-render.git@03de9608e80fd65bdbce4dbfa6dd7b5f555895a0
+django-rest-framework @ git+https://github.com/reimibeta/django-rest-framework.git@503852d3fda3717b0de0932a216d27caa668e743
 djangorestframework==3.12.4
 djangorestframework-simplejwt==4.7.0
 drf-flex-fields==0.9.0
-django-datetime @ git+https://github.com/reimibeta/django-datetime.git@c72c75ca5f2a46895598dcc0ce78bf1127c0c40b
-django-html-render @ git+https://github.com/reimibeta/django-html-render.git@03de9608e80fd65bdbce4dbfa6dd7b5f555895a0
-django-rest-framework @ git+https://github.com/reimibeta/django-rest-framework.git@503852d3fda3717b0de0932a216d27caa668e743
+PyJWT==2.1.0
+pytz==2021.1
+sqlparse==0.4.1
