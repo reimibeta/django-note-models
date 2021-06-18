@@ -11,6 +11,6 @@ import setuptools
 
 setuptools.setup(
     name='note_models',
-    version='1.0.6',
+    version='1.0.7',
     packages=setuptools.find_packages()
 )
