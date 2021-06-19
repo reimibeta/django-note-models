@@ -34,7 +34,7 @@ def update(sender, instance, **kwargs):
         pass
     else:
         if instance.updated_date is None:
-            instance.updated_date = DateTime.datenow()
+            instance.updated_date = datetime.dnow(str=True)
 
         old_value = Note.objects.get(id=instance.id)
         if old_value and old_value.text != instance.text:
